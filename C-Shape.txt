@@ -1,9 +1,8 @@
-	C# (C-Sharp) Quick Revison Notes
-	Written By : Pushpender Singh
+#	C# (C-Sharp) Quick Revison Notes
+#	Written By : Pushpender Singh
 
-========
-* Intro
-========
+## Intro
+
 C# is an object-oriented programming language created by Microsoft that runs on the .NET Framework.
 
 ===============
