@@ -219,7 +219,7 @@ namespace HelloWorld
 	```
 
 #### Constant
-* A keyowrd which is used to make a variable read-only, immutable (*cannot change*)
+* A keyword which is used to make a variable read-only, immutable (*cannot change*)
 * Syntax:
 ```
 const string Author = "Pushpender";
@@ -275,9 +275,38 @@ Console.Write(firstNumber + secondNumber);       // Writing the result on Coonso
 Sum of 1st & 2nd Number is 30
 ```
 
+#### Declaring Multiple Keywords In One Line
+* `Comma`(,) can be used to declare multiple values of **same datatype** In One Line
+* Code Snippet
+```
+int x = 10, y = 20, z = 30;
+Console.WriteLine(x + y + z);
+```
 
-	
-	
+* Result
+```
+60
+```
+
+## Identifiers In C#
+* In Any Programming Language, variable name should be unique, or **variables** should be **identified** by **Unique Names**
+* Thus **Unique Names** are known as **Identifiers**
+
+* Typically, one can name the variables as *x*, *y*, *z* but it is not a good practice.
+* `Meaningful Descriptive names` such as `Author`, `PlayerName`, `GunName` etc should be used in a program to increase the readability of code.
+
+## Naming Convention of Variables
+* Essential Rules for Naming Variables In C#
+   * Should Not Starts With Number & can starts with underscore (_)
+   * Variable Name can only starts with a *number* or *underscore*
+   * Should Starts with `lowercase` letter and `whitespaces` are prohibited
+   * Variable Names are case-sensitive which means that `MyName` & `myName` are two different words
+   * `Reserve Keywords`/`Keywords In C#` (*which are meaningful to the compiler*)  such as `int`, `string`, etc can't be used as Variable Name
+   * Should Not Contain a DOT (.) , for e.g. `D.O.B` can't be used as Varible, but `DOB` can be used as Variable Name
+   
+   
+
+
 	
 
 
