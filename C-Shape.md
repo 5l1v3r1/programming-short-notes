@@ -9,7 +9,14 @@
 * [Installation](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#installation)
 * [HelloWorld Program In C#](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#helloworld-program-in-c)
 * [Syntax (HelloWorld Program Explanation)](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#syntax-helloworld-program-explanation)
-* [Comments In C#](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#syntax-helloworld-program-explanation)
+* [Comments In C#](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#comments-in-c)
+* [Variables In C#](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#variables-in-c)
+   * [Constant](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#constant)
+   * [Concatination of String Variable & Displaying the Result](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#concatination-of-string-variable--displaying-the-result)
+   * [Declaring Multiple Keywords In One Line](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#declaring-multiple-keywords-in-one-line)
+   * [Identifiers In C#](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#identifiers-in-c)
+   * [Naming Convention of Variables](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#naming-convention-of-variables)
+* [DataTypes In C#]()   
 
 ## Intro
 
@@ -288,14 +295,14 @@ Console.WriteLine(x + y + z);
 60
 ```
 
-## Identifiers In C#
+#### Identifiers In C#
 * In Any Programming Language, variable name should be unique, or **variables** should be **identified** by **Unique Names**
 * Thus **Unique Names** are known as **Identifiers**
 
 * Typically, one can name the variables as *x*, *y*, *z* but it is not a good practice.
 * `Meaningful Descriptive names` such as `Author`, `PlayerName`, `GunName` etc should be used in a program to increase the readability of code.
 
-## Naming Convention of Variables
+#### Naming Convention of Variables
 * Essential Rules for Naming Variables In C#
    * Should Not Starts With Number & can starts with underscore (_)
    * Variable Name can only starts with a *number* or *underscore*
@@ -304,7 +311,7 @@ Console.WriteLine(x + y + z);
    * `Reserve Keywords`/`Keywords In C#` (*which are meaningful to the compiler*)  such as `int`, `string`, etc can't be used as Variable Name
    * Should Not Contain a DOT (.) , for e.g. `D.O.B` can't be used as Varible, but `DOB` can be used as Variable Name
    
-   
+## DataTypes In C#
 
 
 	
