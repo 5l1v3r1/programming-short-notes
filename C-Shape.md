@@ -339,6 +339,55 @@ Console.WriteLine(x + y + z);
 |char	    | 2 bytes	|Stores a single character/letter, surrounded by single quotes  |
 |string	    | 2 bytes per character |Stores a sequence of characters, surrounded by double quotes |
 
+* Numbers are divided into two groups i.e **Integer** & **Floating Point Types** 
+  * Integer : Whole Number, -ve & +ve Number **Without Decimal values**
+  * Floating Point Types: Fractinal Numbers **With Decimal values**
+  
+* Depending upon which type of Number you want to store and how big that number is, Use can use these **DataTypes**
+| Number |
+|--------|
+|int | long | float | double | 
+
+* Code Snippet For Storing Different values 
+```
+// For Storing Interger
+int myNum = 10;
+
+// For Storing Large Interger
+long myLargeNum = 100000000000000000000L;
+
+// For Storing Decimal Number
+float myFloatingNum = 3.14F;
+
+// For Storing Decimal Number With Large Decimal Places
+double myDoubleNum = 3.1476356677D;
+
+// For Storing Boolean DataType
+bool isCShapeBoring = false;
+bool isAssemblyLanguageBoring = true;
+
+// For Stroing Single Character
+char myChar = 'a';
+
+// For Storing a String
+string authorName = "Pushpender";
+
+// Printing the Stored Number In Console
+Console.WriteLine(myNum);
+Console.WriteLine(myLargeNum);
+Console.WriteLine(myFloatingNum);
+Console.WriteLine(myDoubleNum);
+Console.WriteLine(isCShapeBoring);
+Console.WriteLine(isAssemblyLanguageBoring);
+Console.WriteLine(myChar);
+Console.WriteLine(authorName);
+```
+
+#### Note: `float`, `double`, `long` should ends with `F`, `D` & `L` respectively & numbers can be -ve as well as +ve
+
+## Type Casting In C#
+
+
 
 	
 
