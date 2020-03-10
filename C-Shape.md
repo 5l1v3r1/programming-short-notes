@@ -59,13 +59,13 @@ namespace HelloWorld
 	
 * `Main `  : 
 	* A METHOD,
-        * Anything inside it is executed
+	* Anything inside it is executed
 	 (It is Discussed In Detail Below)
 	 
 * `Console.WriteLine() ` : 
-	* Console is a CLASS of SYSTEM namespace,
+	* Console is a **class** of **System** namespace,
 	* Use to Print/Write/Output the text/string	
-	* If we don't use "using System;" then we can write it like this:
+	* If we don't use `using System;` then we can write it like this:
 	   `System.Console.WriteLine()`
 							   
 * `WriteLine()` :
@@ -77,9 +77,9 @@ namespace HelloWorld
 * `;`  : 
 	* Each Line is ended with semi-colon (;)
 
-### Note: C# is case-sensitive: "MyClass" and "myclass" has different meaning.
+#### Note: C# is case-sensitive: "MyClass" and "myclass" has different meaning.
 
-### Difference b/w WriteLine() & Write() METHODS
+#### Difference b/w WriteLine() & Write() METHODS
 ```	
 	* CODE EXAMPLE:
 	---------------
@@ -101,7 +101,7 @@ namespace HelloWorld
 ## Comments In C#
 * Code Which is Ignored my the Compiler (of C#), as is coded To Increase the readibilty of code
 
-### Types :
+#### Types :
 
 * `Single Liner`: Start with two forward slashes (//)
 
@@ -135,7 +135,7 @@ namespace HelloWorld
 	Hello World
 ```
 
-### NOTE: Single-Liner Comment is used to comment out single line & To comment multiple lines, we use Multi-Liner Comment. 
+#### NOTE: Single-Liner Comment is used to comment out single line & To comment multiple lines, we use Multi-Liner Comment. 
 	
 ## Variables In C#
 * Variables are containers for storing data values.
