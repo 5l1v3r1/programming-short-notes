@@ -99,7 +99,7 @@ namespace HelloWorld
 ```
 
 ## Comments In C#
-* Code Which is Ignored my the Compiler (of C#), as is coded To Increase the readibilty of code
+* Code Which is Ignored my the Compiler (of C#), and is coded To Increase the readibilty of code
 
 #### Types :
 
