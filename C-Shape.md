@@ -310,8 +310,34 @@ Console.WriteLine(x + y + z);
    * Variable Names are case-sensitive which means that `MyName` & `myName` are two different words
    * `Reserve Keywords`/`Keywords In C#` (*which are meaningful to the compiler*)  such as `int`, `string`, etc can't be used as Variable Name
    * Should Not Contain a DOT (.) , for e.g. `D.O.B` can't be used as Varible, but `DOB` can be used as Variable Name
-   
+ 
+|Incorrect Variable | Reason That Why It Is Incorrect | Correct Variable |
+|-------------------|---------------------------------|------------------|
+| 26aplha           | Cannot Starts With a Number     | alpha26          |
+| D.O.B             | Dot (.) are not allowed         | DOB              |
+| int               | It Should Not Be a `Keyword`/`Reserved Word | integer |
+| First Name        | Whitespace is not allowed  | firstName |
+
+| Correct Variable Name |
+|-----------------------|
+| _LoL |
+| firstName |
+| collectionOfPrimeNumber |
+
 ## DataTypes In C#
+* We specify particular type to a variable in which we are interested in
+* Use of Correct Datatype Helps the Programmer to Save the Memory, Speed of Program, & Makes the code more Maintainable & Readable
+* It is important to use correct DataType with corresponding variable, in order to `avoid errors` & to save time & memory.
+
+|Data Type  |	Size	|Description |
+|-----------|-----------|------------|
+|int	    | 4 bytes	|Stores whole numbers from -2,147,483,648 to 2,147,483,647 |
+|long	    | 8 bytes	|Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
+||float	    | 4 bytes	|Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits |
+|double	    | 8 bytes	|Stores fractional numbers. Sufficient for storing 15 decimal digits  |
+|bool	    | 1 bit	|Stores true or false values  |
+|char	    | 2 bytes	|Stores a single character/letter, surrounded by single quotes  |
+|string	    | 2 bytes per character |Stores a sequence of characters, surrounded by double quotes |
 
 
 	
