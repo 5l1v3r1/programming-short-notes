@@ -5,11 +5,11 @@
 
 # Table of Context
 
-* Intro
-* Installation
-* HelloWorld Program In C#
-* Syntax (HelloWorld Program Explanation)
-* Comments In C#
+* [Intro](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#intro)
+* [Installation](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#installation)
+* [HelloWorld Program In C#](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#helloworld-program-in-c)
+* [Syntax (HelloWorld Program Explanation)](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#syntax-helloworld-program-explanation)
+* [Comments In C#](https://github.com/Technowlogy-Pushpender/programming-short-notes/blob/master/C-Shape.md#syntax-helloworld-program-explanation)
 
 ## Intro
 
@@ -79,7 +79,7 @@ namespace HelloWorld
 
 ### Note: C# is case-sensitive: "MyClass" and "myclass" has different meaning.
 
-## Difference b/w WriteLine() & Write() METHODS
+### Difference b/w WriteLine() & Write() METHODS
 ```	
 	* CODE EXAMPLE:
 	---------------
