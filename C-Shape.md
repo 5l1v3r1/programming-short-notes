@@ -218,9 +218,63 @@ namespace HelloWorld
 	true
 	```
 
+#### Constant
+* A keyowrd which is used to make a variable read-only, immutable (*cannot change*)
+* Syntax:
+```
+const string Author = "Pushpender";
+```
+* If you try to change *Constant Variables* like this,
+```
+Author = "Thanos";  //You Will Get Error
+```
+	
+#### Note: 
+* `Constant Variable` are defined by the User, they can be of any datatype such as `int`, `char`, etc
+* They can't be declared without assigning a value
+```
+const string Author;
+Author = "Pushpender";   // Error
+```
 
-	
-	
+#### Concatination of String Variable & Displaying the Result
+* Code Snippet
+```
+string name = "Pushpender";
+Console.WriteLine("Hello " + name + "!");
+```
+* Result
+```
+Hello Pushpender!
+```
+
+#### Note: `+` is a Arithmetic Operator which can be used multiple times (`Will Discuss More About Operators`)
+
+* Code Snippet 
+```
+// Example of Concatenation of Two Variable Values of string Datatype
+string firstName = "Pushpender";   // Storing Value of string Datatype
+string lastName = "Singh";         // Storing Value of string Datatype
+Console.WriteLine("Hello " + firstName + " " + lastName);       // Writing the result on Coonsole
+```
+* Result
+```
+Hello Pushpender Singh
+```
+
+* Code Snippet 
+```
+// Example of Concatenation of Two Variable Values of int Datatype
+int firstNumber = 10;   	// Storing Value of int Datatype
+string secondNumber = 20;       // Storing Value of int Datatype
+Console.Write("Sum of 1st & 2nd Number is ");
+Console.Write(firstNumber + secondNumber);       // Writing the result on Coonsole
+```
+* Result
+```
+Sum of 1st & 2nd Number is 30
+```
+
 
 	
 	
