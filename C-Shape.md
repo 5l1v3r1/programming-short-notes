@@ -344,9 +344,13 @@ Console.WriteLine(x + y + z);
   * Floating Point Types: Fractinal Numbers **With Decimal values**
   
 * Depending upon which type of Number you want to store and how big that number is, Use can use these **DataTypes**
+
 | Number |
-|--------|----|----|
-|int | long | float | double | 
+|---|
+|int  |
+|long |
+| float|
+| double | 
 
 * Code Snippet For Storing Different values 
 ```
